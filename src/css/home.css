@@ -1,0 +1,722 @@
+.home {
+    background-color: rgba(164, 152, 143, 1);
+    font-family: 'Roboto', sans-serif;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(164, 152, 143, 1);
+    border-bottom: 3px solid white;
+    padding-bottom: 7px;
+}
+
+.nav-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.boton-nav {
+    margin-top: 10px;
+    background-color: rgba(164, 152, 143, 1);
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.home-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    margin-bottom: 130px;
+}
+
+.div-text {
+    width: 55%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 120px;
+    padding-left: 130px;
+}
+
+.text1 {
+    text-align: left;
+    color: white;
+    font-size: 50px;
+    width: 100%;
+}
+
+.text2 {
+    text-align: left;
+    color: white;
+    font-size: 57px;
+    font-weight: 600;
+    width: 100%;
+}
+
+@keyframes typing {
+    from {
+        width: 0%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.text3 {
+    margin-top: 15px;
+    text-align: left;
+    color: white;
+    font-size: 27px;
+    white-space: nowrap;
+    width: 46ch;
+    animation: typing 4s steps(46), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    width: 100%;
+}
+
+.text3-2 {
+    margin-top: 0px;
+    text-align: left;
+    color: white;
+    font-size: 27px;
+    white-space: nowrap;
+    width: 46ch;
+    animation: typing 4s steps(46), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.text4 {
+    margin-top: 120px;
+    text-align: left;
+    color: white;
+    font-size: 27px;
+    width: 90%;
+}
+
+.img-home {
+    margin-top: 90px;
+    width: 600px;
+    height: 600px;
+    transform: scaleX(-1);
+    flex-wrap: wrap;
+}
+
+.separador {
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 60px;
+}
+
+.sobre-mi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    min-height: 100vh;
+    margin-bottom: 70px;
+}
+
+.img-sobreMi {
+    margin-top: 30px;
+    width: 650px;
+    height: 620px;
+    padding-left: 40px;
+}
+
+.div-text-sobreMi {
+    max-width: 550px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.text-sobreMi {
+    text-align: left;
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.info-sobreMi {
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.div-proyectos {
+    min-height: 100vh;
+    padding: 40px;
+    padding-top: 0;
+}
+
+.contenedor-title-proyectos {
+    display: flex;
+    flex-direction: row;
+}
+
+.title-proyectos {
+    text-align: left;
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.lineaa {
+    margin-top: 25px;
+    margin-left: 15px;
+    background-color: rgb(255, 255, 255);
+    height: 4px;
+    width: 100%;
+}
+
+.card-proyecto {
+    width: 550px;
+    height: 600px;
+    background-color: rgba(134, 123, 115, 1);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.img-card {
+    width: 550px;
+    border-radius: 5px;
+}
+
+.div-textCard {
+    padding: 25px 20px;
+}
+
+.title-card {
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.text-card {
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    height: 160px;
+}
+
+.button-proyecto {
+    width: 300px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(164, 152, 143, 1);
+    color: white;
+    transition: all 500ms;
+}
+
+.button-proyecto:hover {
+    transform: scale(1.05);
+}
+
+
+.contenedor-cards {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mySwiper {
+    color: transparent;
+}
+
+:root {
+    --swiper-theme-color: rgb(255, 255, 255) !important;
+}
+
+.div-skills {
+    min-height: 80vh;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.loguitos {
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px;
+}
+
+.img {
+    width: 45px;
+    height: 45px;
+}
+
+.sub-div {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedor {
+    margin-top: 40px;
+}
+
+.div-contacto {
+    background-color: rgba(134, 123, 115, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+}
+
+.contacto {
+    text-align: left;
+    color: white;
+    font-size: 23px;
+}
+
+.imgContacto {
+    filter: invert(100%);
+    height: 25px;
+}
+
+.div-contact {
+    width: 25%;
+}
+
+.enviarEmail {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+    font-size: 20px;
+    transition: all 500ms;
+    color: rgb(200, 111, 111);
+    font-weight: 600;
+}
+
+.enviarEmail:hover {
+    transform: scale(1.05);
+}
+
+.formEmail {
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(95, 113, 97, 1);
+    margin-bottom: 0px;
+    padding: 5px 1px;
+    font-size: 1.1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(95, 113, 97, 1);
+}
+
+.contenedorInpputss {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tituloInput {
+    color: rgba(29, 72, 52, 1);
+    font-size: 23px;
+    text-align: left;
+    width: 100%;
+    margin-left: 320px;
+    margin-top: 20px;
+}
+
+.formEmail:focus {
+    background-color: rgb(255, 255, 255);
+    text-decoration: none !important;
+    outline: none !important;
+    border-color: rgba(29, 72, 52, 1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 450px;
+    color: rgba(29, 72, 52, 1);
+    font-size: 1.1em;
+}
+
+.inpuName::placeholder {
+    color: rgba(29, 72, 52, 1);
+    font-size: 1.1em;
+}
+
+.modalTitle {
+    color: rgb(200, 111, 111);
+    margin-left: 15px;
+    margin: 10px;
+}
+
+.botoncito {
+    color: white;
+    font-size: 1.1em;
+    transition: all 500ms;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: rgb(200, 111, 111);
+}
+
+.botoncito:hover {
+    transform: scale(.95);
+}
+
+.botonResponsive {
+    background-color: red;
+}
+
+
+/* mobile */
+.home-mobile{
+    background-color: rgba(164, 152, 143, 1);
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+    min-height: 100%;
+}
+.nav-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(164, 152, 143, 1);
+    border-bottom: 3px solid white;
+
+}
+
+.boton-nav-mobile {
+    background-color: rgba(164, 152, 143, 1);
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.home-page-mobile {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.text1-mobile {
+    margin-top: 40px;
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.text2-mobile {
+    text-align: left;
+    color: white;
+    font-size: 28px;
+    margin-left: 20px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.div-img-mobile {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-home-mobile {
+    margin-top: 30px;
+    width: 300px;
+    height: 280px;
+    transform: scaleX(-1);
+    flex-wrap: wrap;
+}
+
+.text3-mobile {
+    margin-top: 55px;
+    margin-left: 40px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    width: 46ch;
+    animation: typing 4s steps(46), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    width: 100%;
+}
+
+.text3-2-mobile {
+    margin-bottom: 40px;
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 40px;
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    width: 46ch;
+    animation: typing 4s steps(46), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    width: 100%;
+}
+.sobre-mi-mobile{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.text-sobreMi-mobile{
+    text-align: left;
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin-left: 40px;
+}
+.lineaa-mobile{
+    margin-top: 17px;
+    margin-left: 15px;
+    background-color: rgb(255, 255, 255);
+    height: 4px;
+    width: 46%;
+    margin-right: 40px;
+}
+.info-sobreMi-mobile{
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    padding: 20px 50px;
+    padding-bottom: 0;
+}
+.img-sobreMi-mobile{
+    height: 280px;
+}
+.contenedor-cards-mobile {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.card-proyecto-mobile{
+    width: 300px;
+    height: 490px;
+    background-color: rgba(134, 123, 115, 1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    /* margin: 20px; */
+}
+.div-proyectos-mobile{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+.img-card-mobile{
+    width: 300px;
+    border-radius: 5px 5px 0 0;
+}
+.title-card-mobile{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+.text-card-mobile {
+    padding: 0 10px;
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    height: 160px;
+    margin-bottom: 67px;
+}
+.button-proyecto-mobile{
+    width: 200px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(164, 152, 143, 1);
+    color: white;
+    transition: all 500ms;
+}
+
+.button-proyecto:hover {
+    transform: scale(1.05);
+}
+
+.div-skills-mobile {
+    min-height: 80vh;
+    padding: 40px;
+    margin-top: 40px;
+    padding-bottom: 0px;
+}
+.sub-div-mobile{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.loguitos-mobile {
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.img-mobile {
+    width: 27px;
+    height: 27px;
+}
+
+.div-contacto-mobile {
+    background-color: rgba(134, 123, 115, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 220px;
+    align-items: center;
+    padding: 20px;
+}
+
+.contacto-mobile {
+    color: white;
+    font-size: 17px;
+    text-align: left;
+}
+
+.imgContacto-mobile {
+    filter: invert(100%);
+    height: 25px;
+}
+
+
+
+.enviarEmail-mobile {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+    font-size: 17px;
+    transition: all 500ms;
+    color: rgb(200, 111, 111);
+    font-weight: 600;
+}
+
+.enviarEmail-mobile:hover {
+    transform: scale(1.05);
+}
+
+.formEmail-mobile {
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(95, 113, 97, 1);
+    margin-bottom: 0px;
+    padding: 5px 1px;
+    font-size: 1.1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(95, 113, 97, 1);
+}
+
+.contenedorInpputss-mobile {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tituloInput-mobile {
+    color: rgba(29, 72, 52, 1);
+    font-size: 23px;
+    text-align: left;
+    width: 100%;
+    margin-left: 320px;
+    margin-top: 20px;
+}
+
+.formEmail-mobile:focus {
+    background-color: rgb(255, 255, 255);
+    text-decoration: none !important;
+    outline: none !important;
+    border-color: rgba(29, 72, 52, 1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 450px;
+    color: rgba(29, 72, 52, 1);
+    font-size: 1.1em;
+}
+
+.inpuName-mobile::placeholder {
+    color: rgba(29, 72, 52, 1);
+    font-size: 1.1em;
+}
+
+.modalTitle-mobile {
+    color: rgb(200, 111, 111);
+    margin-left: 15px;
+    margin: 10px;
+}
+
+.botoncito-mobile {
+    color: white;
+    font-size: 1.1em;
+    transition: all 500ms;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: rgb(200, 111, 111);
+}
+
+.botoncito-mobile:hover {
+    transform: scale(.95);
+}
+
+.botonResponsive-mobile {
+    background-color: red;
+}
+
