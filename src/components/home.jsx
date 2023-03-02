@@ -71,7 +71,7 @@ function Home() {
                 <img src={imageSobreMi} className='img-sobreMi'></img>
                 <div className='div-text-sobreMi'>
                 <h3 className='text-sobreMi'>Sobre mí</h3>
-                <p className='info-sobreMi'>Soy desarrolladora Full Stack apasionada por el Front End. Curiosa, con ganas de aprender siempre cosas nuevas que me ayuden a crecer profesionalmente y como persona. Con excelente capacidad resolutiva, siempre buscando maneras rápidas y eficaces de solucionar los problemas.<br/> Disfruto de trabajar en equipos donde pueda aprender y aportar mis conocimientos. <br/> Inicié mi capacitación en la academia Henry y me sigo capacitando constantemente de manera autodidacta.<br></br>Trabajé durante 3 años en atención al cliente, lo que me ayudo a desarrollar habilidades blandas como la comunicación, el compañerismo y la empatía.
+                <p className='info-sobreMi'>Soy desarrolladora Full Stack apasionada por el Front End. Curiosa, con ganas de aprender siempre cosas nuevas que me ayuden a crecer profesionalmente y como persona. Con excelente capacidad resolutiva, siempre buscando maneras rápidas y eficaces de solucionar los problemas.<br/>Actualmente trabajo en <b>Imagine Big</b>, una Software Factory donde participo de la creación de diferentes proyectos y brindo soporte a otros, las principales tecnologias que utilizo son React, Node, Express, Postgres y Ant-Design, entre muchas otras de acuerdo a la necesidad del cliente. Trabajo bajo la metodología agil SRUM.<br/> Inicié mi capacitación en la academia Henry y me sigo capacitando constantemente de manera autodidacta.<br></br>Mi experiencia en atención al cliente me ayudo a desarrollar habilidades blandas como la comunicación, el compañerismo y la empatía.
                 </p>
                 </div>
             </div>
@@ -335,6 +335,28 @@ function Home() {
                                 <img src="https://img.icons8.com/ios-filled/50/000000/trello.png" className='img' />
                             </div>
                         </OverlayTrigger>
+                        <OverlayTrigger
+                            key={"bottom"}
+                            placement={'bottom'}
+                            overlay={
+                                <Tooltip id={`tooltip-${"bottom"}`}>
+                                    Jira
+                                </Tooltip>}>
+                            <div className='loguitos' >
+                                <img src="https://static-00.iconduck.com/assets.00/jira-software-icon-496x512-li1mvp1s.png" className='img' />
+                            </div>
+                        </OverlayTrigger>
+                        <OverlayTrigger
+                            key={"bottom"}
+                            placement={'bottom'}
+                            overlay={
+                                <Tooltip id={`tooltip-${"bottom"}`}>
+                                    BitBucket
+                                </Tooltip>}>
+                            <div className='loguitos' >
+                                <img src="https://cdn.iconscout.com/icon/free/png-256/bitbucket-3628063-3030444.png?f=webp&w=128" className='img' />
+                            </div>
+                        </OverlayTrigger>
                         </div>
                     </div>
                 </div>
@@ -389,7 +411,7 @@ function Home() {
             <div id='section1' className='sobre-mi-mobile'>
                 <div className='div-text-sobreMi-mobile'>
                 <h3 className='text-sobreMi-mobile'>Sobre mí <div className='lineaa-mobile'></div></h3>
-                <p className='info-sobreMi-mobile'>Soy desarrolladora Full Stack apasionada por el Front End. Curiosa, con ganas de aprender siempre cosas nuevas que me ayuden a crecer profesionalmente y como persona. Con excelente capacidad resolutiva, siempre buscando maneras rápidas y eficaces de solucionar los problemas.<br/> Disfruto de trabajar en equipos donde pueda aprender y aportar mis conocimientos. <br/> Inicié mi capacitación en la academia Henry y me sigo capacitando constantemente de manera autodidacta. <br></br>Trabajé durante 3 años en atención al cliente, lo que me ayudo a desarrollar habilidades blandas como la comunicación, el compañerismo y la empatía.
+                <p className='info-sobreMi-mobile'>Soy desarrolladora Full Stack apasionada por el Front End. Curiosa, con ganas de aprender siempre cosas nuevas que me ayuden a crecer profesionalmente y como persona. Con excelente capacidad resolutiva, siempre buscando maneras rápidas y eficaces de solucionar los problemas.<br/>Actualmente trabajo en <b>Imagine Big</b>, una Software Factory donde participo de la creación de diferentes proyectos y brindo soporte a otros, las principales tecnologias que utilizo son React, Node, Express, Postgres y Ant-Design, entre muchas otras de acuerdo a la necesidad del cliente. Trabajo bajo la metodología agil SRUM.<br/> Inicié mi capacitación en la academia Henry y me sigo capacitando constantemente de manera autodidacta.<br></br>Mi experiencia en atención al cliente me ayudo a desarrollar habilidades blandas como la comunicación, el compañerismo y la empatía.
                 </p>
                 <img src={imageSobreMi} className='img-sobreMi-mobile'></img>
                 </div>
@@ -649,6 +671,28 @@ function Home() {
                                 </Tooltip>}>
                             <div className='loguitos-mobile' >
                                 <img src="https://img.icons8.com/ios-filled/50/000000/trello.png" className='img-mobile' />
+                            </div>
+                        </OverlayTrigger>
+                        <OverlayTrigger
+                            key={"bottom"}
+                            placement={'bottom'}
+                            overlay={
+                                <Tooltip id={`tooltip-${"bottom"}`}>
+                                    Jira
+                                </Tooltip>}>
+                            <div className='loguitos-mobile' >
+                                <img src="https://static-00.iconduck.com/assets.00/jira-software-icon-496x512-li1mvp1s.png" className='img-mobile' />
+                            </div>
+                        </OverlayTrigger>
+                        <OverlayTrigger
+                            key={"bottom"}
+                            placement={'bottom'}
+                            overlay={
+                                <Tooltip id={`tooltip-${"bottom"}`}>
+                                    BitBucket
+                                </Tooltip>}>
+                            <div className='loguitos-mobile' >
+                                <img src="https://cdn.iconscout.com/icon/free/png-256/bitbucket-3628063-3030444.png?f=webp&w=128" className='img-mobile' />
                             </div>
                         </OverlayTrigger>
                         </div>
