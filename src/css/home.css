@@ -10,7 +10,7 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    background-color: rgba(164, 152, 143, 1);
+    background-color: white;
     border-bottom: 3px solid white;
     padding-bottom: 7px;
 }
@@ -18,30 +18,37 @@
 .nav-div {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 50%;
+    justify-content: center;
+    width: 100%;
 }
 
 .boton-nav {
     margin-top: 10px;
-    background-color: rgba(164, 152, 143, 1);
+    background-color: white;
     border: none;
-    color: white;
+    color: rgba(164, 152, 143, 1);
     font-size: 20px;
     font-weight: 600;
+    padding: 0 15px
+}
+
+.boton-nav:hover{
+    color: rgb(132, 122, 115)
 }
 
 .home-page {
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: row;
     margin-top: 0px;
     flex-wrap: wrap;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 .div-text {
-    width: 55%;
+    max-width: 55%;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -113,7 +120,7 @@
 .img-home {
     margin-top: 90px;
     width: 600px;
-    height: 600px;
+    height: 650px;
     transform: scaleX(-1);
     flex-wrap: wrap;
 }
@@ -131,6 +138,7 @@
     margin-top: 90px;
     min-height: 100vh;
     margin-bottom: 70px;
+    justify-content: center;
 }
 
 .img-sobreMi {
@@ -161,9 +169,9 @@
 }
 
 .div-proyectos {
-    min-height: 100vh;
     padding: 40px;
     padding-top: 0;
+    width: 100%;
 }
 
 .contenedor-title-proyectos {
@@ -179,6 +187,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    white-space: nowrap;
 }
 
 .lineaa {
@@ -218,11 +227,11 @@
     text-align: left;
     color: white;
     font-size: 18px;
-    height: 160px;
+    height: 175px;
 }
 
 .button-proyecto {
-    width: 300px;
+    width: 400px;
     border: none;
     font-size: 20px;
     border-radius: 5px;
@@ -254,9 +263,8 @@
 }
 
 .div-skills {
-    min-height: 80vh;
-    padding: 40px;
-    margin-top: 40px;
+    padding: 20px;
+    margin-top: 10px;
 }
 
 .loguitos {
@@ -295,32 +303,33 @@
     justify-content: space-around;
     height: 200px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .contacto {
     text-align: left;
+    display:flex;
+    flex-direction: row;
     color: white;
-    font-size: 23px;
+    font-size: 17px;
 }
 
 .imgContacto {
     filter: invert(100%);
     height: 25px;
-}
-
-.div-contact {
-    width: 27%;
+    padding-right: 8px;
 }
 
 .enviarEmail {
     border: none;
     border-radius: 5px;
     padding: 5px;
-    width: 300px;
+    width: 220px;
     font-size: 20px;
     transition: all 500ms;
-    color: rgb(200, 111, 111);
+    color: #c86f6f;
     font-weight: 600;
+    background-color: white;
 }
 
 .enviarEmail:hover {
@@ -330,13 +339,11 @@
 .formEmail {
     width: 450px;
     background-color: rgb(255, 255, 255);
-    color: rgba(95, 113, 97, 1);
+    color: rgb(51, 59, 52);
     margin-bottom: 0px;
     padding: 5px 1px;
     font-size: 1.1em;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border: 1px;
     border-color: rgba(95, 113, 97, 1);
 }
 
@@ -358,7 +365,7 @@
 }
 
 .formEmail:focus {
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255);
     text-decoration: none !important;
     outline: none !important;
     border-color: rgba(29, 72, 52, 1);
@@ -367,7 +374,7 @@
     border-right: none;
     width: 450px;
     color: rgba(29, 72, 52, 1);
-    font-size: 1.1em;
+    font-size: 1.1em; */
 }
 
 .inpuName::placeholder {
@@ -467,7 +474,7 @@
 
 .text3-mobile {
     margin-top: 55px;
-    margin-left: 40px;
+    margin-left: 20px;
     text-align: left;
     color: white;
     font-size: 20px;
@@ -482,7 +489,7 @@
     margin-bottom: 40px;
     margin-top: 0px;
     text-align: left;
-    margin-left: 40px;
+    margin-left: 20px;
     color: white;
     font-size: 20px;
     white-space: nowrap;
@@ -506,6 +513,9 @@
     flex-direction: row;
     width: 85%;
     margin-left: 40px;
+}
+#title-sobreMi{
+    white-space: nowrap;
 }
 .lineaa-mobile{
     margin-top: 17px;
@@ -535,7 +545,6 @@
 }
 .card-proyecto-mobile{
     width: 300px;
-    height: 490px;
     background-color: rgba(134, 123, 115, 1);
     border-radius: 5px;
     margin-bottom: 20px;
@@ -563,8 +572,7 @@
     text-align: left;
     color: white;
     font-size: 15px;
-    height: 160px;
-    margin-bottom: 67px;
+    margin-bottom: 16px;
 }
 .button-proyecto-mobile{
     width: 200px;
@@ -575,6 +583,7 @@
     background-color: rgba(164, 152, 143, 1);
     color: white;
     transition: all 500ms;
+    margin-bottom: 10px;
 }
 
 .button-proyecto:hover {
@@ -643,6 +652,8 @@
     transition: all 500ms;
     color: rgb(200, 111, 111);
     font-weight: 600;
+    background-color: white;
+    margin-bottom: 20px;
 }
 
 .enviarEmail-mobile:hover {
